@@ -1,0 +1,191 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Open+Sans:wght@700&display=swap');
+
+
+*{list-style: none;
+    text-decoration: none;
+}
+body {
+  margin: 0;
+  color: white;
+  background-image: url(https://r4.wallpaperflare.com/wallpaper/365/244/884/uchiha-itachi-naruto-shippuuden-anbu-silhouette-wallpaper-798098ed01dacd1ba697c8bfe011d61d.jpg?timestamp=1683775037149);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.all4{
+  border: 1px solid white;
+  background-color: #5c4949;
+  margin-left: 10%;
+  margin-right: 15%;
+  border-radius: 20px;
+  border-color: aliceblue;
+  
+}
+
+
+
+
+.slider {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.slider .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  animation: slide 10s infinite;
+}
+ #slideshow {
+    overflow: hidden;
+    height: 50%;
+    width: 86%;
+    
+   
+  }
+ .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 4s ease infinite;
+  }
+ .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+ @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    80% {margin-left: -1456px;}
+  }
+ 
+ .tong1{
+  margin-left: 10%;
+  margin-right: 20%;
+  border-radius: 10px;
+  border: 1px solid wheat;
+  background: rgba(255, 99, 71, 0.2);
+}
+  .heading {
+    float:right;
+  }
+  .tong{
+    margin-top: 100px;
+    display: flex; 
+    
+  }
+  .text1{
+    color: #eee;
+    width: 60%;
+    font-size: 1rem;
+    border-radius: 6%;
+    display: inline-flex;
+    margin-left: 5%;
+    background-color: #2b2b2b;
+
+    padding: 2%;
+    
+   
+  }
+  .text{
+    background-color: #2b2b2b;
+    color: #eee;
+    border-radius: 5%;
+    padding: 1%;
+    font-size: 1rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 40%;
+    justify-content: center;
+    display: flex;
+   
+  }
+  .text li{
+    padding: 5px 
+  }
+.text1 ul li{
+  font-size: 1rem;
+  color: black;
+  display: flex;
+  padding: 5px 0
+}
+.text1 ul li{
+  color: white;
+ 
+}
+
+
+.text3{
+  
+  border: 1px solid black;
+  background-color: #95afc0;
+  width: 270px;
+  font-size: 10px;
+  border-radius: 10px;
+  margin-left: 30px ;
+ 
+}
+.text3 li{
+  color: black;
+
+}
+.text4{
+  border: 1px solid black;
+  text-align: center;
+
+}
+.text5{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #95afc0;
+  text-align: left;
+}
+.hideshow{
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #000000;
+  width: 50%;
+  font-size: 1rem;
+  margin-top: 40px;
+  margin-left: 5%;
+  border-radius: 2%;
+}
+.hideshow g{
+  margin-left: 5%;
+}
+.hideshow g:hover{
+
+  border-bottom: 1px solid white;
+}
+
